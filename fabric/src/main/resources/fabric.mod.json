@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mobcapsetting",
+  "version": "${version}",
+
+  "name": "Mob Cap Setting",
+  "description": "",
+  "authors": [
+    "Flaton"
+  ],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.flaton.mobcapsetting.fabric.MobCapSettingFabric"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": ">=1.18"
+  }
+}

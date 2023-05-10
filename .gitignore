@@ -35,6 +35,8 @@ common/build
 common/out
 common/classes
 
+common/run
+
 # fabric
 
 fabric/.gradle
@@ -42,12 +44,16 @@ fabric/build
 fabric/out
 fabric/classes
 
+fabric/run
+
 # forge
 
 forge/.gradle
 forge/build
 forge/out
 forge/classes
+
+forge/run
 
 # java
 
